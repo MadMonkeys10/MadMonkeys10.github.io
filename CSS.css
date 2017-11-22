@@ -1,0 +1,39 @@
+body {
+  background-color: #99b3ff;
+}
+
+#Nutella{
+  width: 404px;
+  margin: 0px auto;
+
+}
+
+#Cont{
+}
+.OPBtn{
+  border: 0px;
+  width: 200px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #FF0000;
+  font-size: 30px;
+}
+
+.name{
+  text-align: center;
+}
+
+button:hover{
+  box-shadow: 5px 5px 10px #000;
+  animation: color 5s infinite alternate;
+}
+
+@keyframes color{
+  0% {background-color: #FF0000;}
+  17%{background-color: #FF7F00;}
+  33%{background-color: #FFFF00;}
+  50%{background-color: #00FF00;}
+  64%{background-color: #0000FF;}
+  82%{background-color: #4B0082;}
+  100%{background-color: #9400D3;}
+}

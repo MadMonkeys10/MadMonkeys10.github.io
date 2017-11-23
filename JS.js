@@ -88,21 +88,21 @@ function attack() {
     sg = pikr(["USP40","ITA12s"]);
     Gadget = pikr(["Breach charge", "Smoke granade"]);
      break;}
-    case 16:{ op = "Ying";
-    gn = pikr(["T-95 LSW","SIX12"]);
-    sg = pikr(["Q-929"]);
-    Gadget = pikr(["Breach charge", "Smoke granade"]);
-     break;}
-     break;}
+    case 16:{
+      op = "Ying";
+      gn = pikr(["T-95 LSW","SIX12"]);
+      sg = pikr(["Q-929"]);
+      Gadget = pikr(["Breach charge", "Smoke granade"]);
+      break;}
     case 16:{ op = "Zofia";
-    gn = pikr(["LMGE","C762"]);
-    sg = pikr(["RG15"]);
-    Gadget = pikr(["Breach charge", "Claymore"]);
-     break;}
-     case 16:{ op = "Dokkoabi";
-     gn = pikr(["MK 14 ","BOSG.12.2"]);
-     sg = pikr(["SMG-12","C75 auto"]);
-     Gadget = pikr(["Smoke granade", "Claymore"]);
+      gn = pikr(["LMGE","C762"]);
+      sg = pikr(["RG15"]);
+      Gadget = pikr(["Breach charge", "Claymore"]);
+      break;}
+    case 16:{ op = "Dokkoabi";
+      gn = pikr(["MK 14 ","BOSG.12.2"]);
+      sg = pikr(["SMG-12","C75 auto"]);
+      Gadget = pikr(["Smoke granade", "Claymore"]);
       break;}
 
 

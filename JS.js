@@ -93,6 +93,19 @@ function attack() {
     sg = pikr(["Q-929"]);
     Gadget = pikr(["Breach charge", "Smoke granade"]);
      break;}
+     break;}
+    case 16:{ op = "Zofia";
+    gn = pikr(["LMGE","C762"]);
+    sg = pikr(["RG15"]);
+    Gadget = pikr(["Breach charge", "Claymore"]);
+     break;}
+     case 16:{ op = "Dokkoabi";
+     gn = pikr(["MK 14 ","BOSG.12.2"]);
+     sg = pikr(["SMG-12","C75 auto"]);
+     Gadget = pikr(["Smoke granade", "Claymore"]);
+      break;}
+
+
   }
   //alert(op);
   document.getElementById("name").innerHTML =  op;
@@ -153,7 +166,7 @@ function defend() {
     case 9:{ op = "Jager";
     gn = pikr(["M870","416-C Carbine"]);
     sg = pikr(["P12"]);
-    Gadget = pikr(["Nitro cell", "Deployable shield"]);
+    Gadget = pikr(["Barbed wire", "Deployable shield"]);
      break;}
     case 10:{ op = "Bandit";
     gn = pikr(["M870","MP7"]);
@@ -186,7 +199,7 @@ function defend() {
     Gadget = pikr(["Deployable shield", "Nitro cell"]);
      break;}
     case 16:{ op = "Lesion";
-    gn = pikr(["T-5","416-C Carbine"]);
+    gn = pikr(["T-5","SIX12 SD"]);
     sg = pikr(["Q-929"]);
     Gadget = pikr(["Impact granade", "Deployable shield"]);
      break;}
@@ -195,6 +208,11 @@ function defend() {
     sg = pikr(["RG15"]);
     Gadget = pikr(["Impact granade", "Barbed wire"]);
      break;}
+     case 18:{ op = "Vigil";
+     gn = pikr(["K1A","BOSG.12.2"]);
+     sg = pikr(["C75 auto","SMG-12"]);
+     Gadget = pikr(["Impact granade", "Barbed wire"]);
+      break;}
   }
   //alert(op);
   document.getElementById("name").innerHTML =  op;

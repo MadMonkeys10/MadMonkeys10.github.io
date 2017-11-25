@@ -59,7 +59,7 @@ function attack() {
     Gadget = pikr(["Breach charge", "Smoke granade"]);
      break;}
     case 10:{ op = "IQ";
-    gn = pikr(["AUG A2","552 Commando","68A1"]);
+    gn = pikr(["AUG A2","552 Commando","G8A1"]);
     sg = pikr(["P12"]);
     Gadget = pikr(["Frag grenade", "Breach charge"]);
      break;}

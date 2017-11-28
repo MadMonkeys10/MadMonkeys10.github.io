@@ -1,11 +1,50 @@
 body {
   background-color: #99b3ff;
+  text: white;
+  margin: 0px;
 }
 
 #Nutella{
   width: 404px;
   margin: 0px auto;
 
+}
+#red{
+  width: 50%;
+  display: block;
+  position: fixed;
+  left: 25%;
+  height: 100%;
+  float: left;
+  /*background-color: red;*/
+}
+
+#salmon{
+  width: 100%;
+  height: 85%;
+  /*background-color: orange;*/
+}
+
+#supernova{
+  width: 100%;
+  height: 100%;
+}
+
+#pic{
+  display: block;
+  width: 313px;
+  height: 647px;
+  margin: 0 auto;
+  background-image: url(http://i.imgur.com/y16oLG9.jpg);
+
+}
+
+#green{
+  width: 200px;
+  display: block;
+  position: fixed;
+  left: 75%;
+  height: 100%;
 }
 
 #Cont{
@@ -15,26 +54,65 @@ body {
   width: 200px;
   padding: 30px;
   border-radius: 10px;
-  background-color: #FF0000;
+  background-color: #000000;
   font-size: 30px;
+  color: white;
 }
 
 .name{
   margin-top: 32px;
   text-align: center;
+
 }
 
 button:hover{
+
   box-shadow: 5px 5px 10px #000;
+  text-shadow: 5px 5px 10px #000;
   animation: color 5s infinite alternate;
 }
 
 @keyframes color{
-  0% {background-color: #FF0000;}
-  17%{background-color: #FF7F00;}
-  33%{background-color: #FFFF00;}
-  50%{background-color: #00FF00;}
-  64%{background-color: #0000FF;}
-  82%{background-color: #4B0082;}
-  100%{background-color: #9400D3;}
+  0% {background-color: #000000;
+      color: #ffffff}
+  5%{background-color: #0d0d0d;
+      color: #f2f2f2}
+  10%{background-color: #1a1a1a;
+      color: #e6e6e6}
+  15%{background-color: #262626;
+      color: #d9d9d9}
+  20%{background-color: #333333;
+      color: #cccccc}
+  25%{background-color: #404040;
+      color: #bfbfbf}
+  30%{background-color: #4d4d4d;
+      color: #b3b3b3}
+  35% {background-color: #595959;
+      color: #a6a6a6}
+  40%{background-color: #666666;
+      color: #999999}
+  45%{background-color: #737373;
+      color: #8c8c8c}
+  50%{background-color: #808080;
+      color: #808080}
+  55%{background-color: #8c8c8c;
+      color: #737373}
+  60%{background-color: #999999;
+      color: #666666}
+  65%{background-color: #a6a6a6;
+      color: #595959}
+  70% {background-color: #b3b3b3;
+      color: #4d4d4d}
+  75%{background-color: #bfbfbf;
+      color: #404040}
+  80%{background-color: #cccccc;
+      color: #333333}
+  85%{background-color: #d9d9d9;
+      color: #262626}
+  90%{background-color: #e6e6e6;
+      color: #1a1a1a}
+  95%{background-color: #f2f2f2;
+      color: #0d0d0d}
+  100%{background-color: #ffffff;
+      color: #000000}
 }

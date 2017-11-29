@@ -1,5 +1,5 @@
 body {
-  background-color: #99b3ff;
+  background-image: url(https://images4.alphacoders.com/676/676369.jpg) ;
   text: white;
   margin: 0px;
 }
@@ -20,6 +20,7 @@ body {
 }
 
 #salmon{
+  margin-top: 32px;
   width: 100%;
   height: 85%;
   /*background-color: orange;*/
@@ -31,6 +32,7 @@ body {
 }
 
 #pic{
+  border-radius: 25px;
   display: block;
   width: 313px;
   height: 647px;

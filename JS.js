@@ -136,7 +136,7 @@ function attack() {
 
 function defend() {
   //alert("defend");
-  var n = rand(17);  // returns a number between 1 and 17;
+  var n = rand(18);  // returns a number between 1 and 18;
   //alert(n);
   var op;
   var gn;

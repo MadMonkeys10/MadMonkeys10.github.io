@@ -60,13 +60,13 @@ function attack() {
     gn = pikr(["AK-12","Ballistic Sheild","6P41"]);
     sg = pikr(["PMM","GSH-18"]);
     Gadget = pikr(["Breach charge", "Smoke granade"]);
-    loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-blitz_229911.png";
+    loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-fuze_229914.png";
      break;}
     case 9:{ op = "Blitz";
     gn = pikr(["Flash Shield"]);
     sg = pikr(["P12"]);
     Gadget = pikr(["Breach charge", "Smoke granade"]);
-    loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-fuze_229914.png";
+    loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-blitz_229914.png";
      break;}
     case 10:{ op = "IQ";
     gn = pikr(["AUG A2","552 Commando","G8A1"]);
@@ -76,7 +76,7 @@ function attack() {
      break;}
     case 11:{ op = "Buck";
     gn = pikr(["C8-SFW","CAMRS"]);
-    sg = pikr(["PK1 9mm"]);
+    sg = pikr(["MK1 9mm"]);
     Gadget = pikr(["Frag grenade", "Stun granade"]);
     loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-buck_237599.png";
      break;}

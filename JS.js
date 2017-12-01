@@ -66,7 +66,7 @@ function attack() {
     gn = pikr(["Flash Shield"]);
     sg = pikr(["P12"]);
     Gadget = pikr(["Breach charge", "Smoke granade"]);
-    loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-blitz_229911.png";
+    loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-fuze_229914.png";
      break;}
     case 10:{ op = "IQ";
     gn = pikr(["AUG A2","552 Commando","G8A1"]);

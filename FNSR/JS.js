@@ -16,7 +16,7 @@ var strats = "null";
 //   });
 
 $.get("strats.txt").done(function(text) {
-  alert("Sucess");
+  console.log("Sucess");
   strats = text.split("\n");
   strats.forEach(function(element) {
     console.log(element);
@@ -39,7 +39,7 @@ $(document).ajaxComplete(function() {
 
 
 function start() {
-  alert("start();")
+  alert("start();");
   //getData();
 
 }

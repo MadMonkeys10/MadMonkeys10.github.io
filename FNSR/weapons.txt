@@ -36,4 +36,10 @@ No Legendary
 Shotguns and SMGs only
 No  scoped weapons
 Mini guns only
-NO Mini guns
+No Mini guns
+No pickaxe
+Only use light ammo
+Only use heavy ammo
+Only use medium ammo
+Only use explosives
+Only use shotgun shells

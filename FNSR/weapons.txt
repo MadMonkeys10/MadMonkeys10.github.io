@@ -1,2 +1,16 @@
-Snipers Only
-Shotguns only
+Assault Rifles only
+Pistols only
+Rockets/Grenade Launchers only
+shotguns only
+SMGs only
+Sniper Rifles only
+SCAR only
+M16 only
+Scoped assault only
+Burst Rifle only
+Revolver only
+Pistols/Snipers only
+Pump shotgun only
+Tactical shotgun only
+Submachine Gun only
+Tactical SMG only

@@ -16,7 +16,7 @@ $.ajax({
 $(document).ajaxComplete(function() {
   $(".log").text("Ajax complete");
   pickRandStrat();
-})
+});
 
 
 
@@ -28,7 +28,7 @@ $(document).ajaxComplete(function() {
 
 
 function start() {
-  //alert("start();")
+  alert("start();")
   //getData();
 
 }

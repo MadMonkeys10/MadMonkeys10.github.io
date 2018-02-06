@@ -7,6 +7,7 @@ $.ajax({
         strats.forEach(function(element) {
           console.log(element);
         });
+      }
     error:   function() {
         alert("Error");
     }

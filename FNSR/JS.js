@@ -1,21 +1,28 @@
 var strats = null;
-$(function() {
-  $.ajax({
-      type:    "GET",
-      url:     "strats.txt",
-      success: function(text) {
-        alert("Sucess");
-        strats = text.split("\n");
-        strats.forEach(function(element) {
-          console.log(element);
-        });
-      },
-      error: function() {
-        alert("Error");
-      }
-    });
-});
 
+// $.ajax({
+//     type:    "GET",
+//     url:     "strats.txt",
+//     success: function(text) {
+//       alert("Sucess");
+//       strats = text.split("\n");
+//       strats.forEach(function(element) {
+//         console.log(element);
+//       });
+//     },
+//     error: function() {
+//       alert("Error");
+//     }
+//   });
+
+$.get("strats.txt").done(function(text) {
+  alert("Sucess");
+  strats = text.split("\n");
+  strats.forEach(function(element) {
+    console.log(element);
+  });
+
+});
 
 $(document).ajaxComplete(function() {
   console.log("ajax Complete");

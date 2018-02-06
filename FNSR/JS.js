@@ -39,7 +39,7 @@ $(document).ajaxComplete(function() {
 
 
 function start() {
-  alert("start();");
+  //alert("start();");
   //getData();
 
 }
@@ -50,5 +50,5 @@ function getRandomInt(max) {
 
 function pickRandStrat() {
   console.log(strats[getRandomInt(4)]);
-  document.getElementById("strat").innerHTML = "test" + strats[getRandomInt(4)];
+  document.getElementById("strat").innerHTML = strats[getRandomInt(4)];
 }

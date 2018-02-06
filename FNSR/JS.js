@@ -7,7 +7,7 @@ $.ajax({
         strats.forEach(function(element) {
           console.log(element);
         });
-        document.getElementById("testArea").innerHTML = strats;
+        //document.getElementById("testArea").innerHTML = strats;
 
     },
     error:   function() {

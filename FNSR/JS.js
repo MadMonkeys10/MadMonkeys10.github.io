@@ -14,7 +14,7 @@ $.ajax({
   });
 
 $(document).ajaxComplete(function() {
-  $(".log").text("Ajax complete");
+  console.log("ajax Complete");
   pickRandStrat();
 });
 

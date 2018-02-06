@@ -35,5 +35,5 @@ function getRandomInt(max) {
 
 function pickRandStrat() {
   console.log(strats[getRandomInt(strats.length-2)]);
-  document.getElementById("strat").innerHTML = strats[getRandomInt(4)];
+  document.getElementById("strat").innerHTML = strats[getRandomInt(strats.length-2)];
 }

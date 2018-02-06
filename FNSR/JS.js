@@ -1,4 +1,4 @@
-var strats = null;
+var strats = "null";
 
 // $.ajax({
 //     type:    "GET",

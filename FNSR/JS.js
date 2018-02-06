@@ -1,6 +1,5 @@
 function start() {
-  let data = loadFile("strats.txt");
-  document.getElementById("test").innerHtml = yes();
+  document.getElementById("test").innerHtml = loadFile("strats.txt");
 }
 
 function loadFile(filePath) {

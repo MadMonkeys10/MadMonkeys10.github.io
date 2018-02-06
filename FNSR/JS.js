@@ -1,14 +1,14 @@
-function start() {
-  document.getElementById("test").innerHtml = loadFile("strats.txt");
-}
+$.ajax({
+    type:    "GET",
+    url:     "strats.txt",
+    success: function(text) {
+        alert("Sucess");
+    },
+    error:   function() {
+        alert("Error");
+    }
+});
 
-function loadFile(filePath) {
-  var result = null;
-  var xmlhttp = new XMLHttpRequest();
-  xmlhttp.open("GET", filePath, false);
-  xmlhttp.send();
-  if (xmlhttp.status==200) {
-    result = xmlhttp.responseText;
-  }
-  return result;
+function start() {
+  //alert("TEST");
 }

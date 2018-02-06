@@ -14,3 +14,26 @@ Pump shotgun only
 Tactical shotgun only
 Submachine Gun only
 Tactical SMG only
+Silenced SMG only
+Bolt action Sniper only
+Semi-Auto sniper only
+Common only
+Rare only
+Epic only
+Legendary only
+Legendary and Common only
+Rare and uncommon only
+No shotguns
+No Snipers
+No Assault Rifles
+No SMGs
+No Pistols
+No Rocket/Grenade Launchers
+No Commons
+No Rare
+No Epic
+No Legendary
+Shotguns and SMGs only
+No  scoped weapons
+Mini guns only
+NO Mini guns

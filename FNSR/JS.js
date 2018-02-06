@@ -34,7 +34,7 @@ $.get("weapons.txt").done(function(text) {
   console.log("Sucess");
   weapons = text.split("\n");
 
-  strats.forEach(function(element) {
+  weapons.forEach(function(element) {
     console.log(element);
   });
 

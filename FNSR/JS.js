@@ -9,7 +9,7 @@ function getData() {
           strats.forEach(function(element) {
             console.log(element);
           });
-          //document.getElementById("testArea").innerHTML = strats;
+          pickRandStrat();
 
       },
       error:   function() {
@@ -21,10 +21,13 @@ function getData() {
 function start() {
   alert("start();")
   getData();
-  alert("TESTA")
-  document.getElementById("test").innerHTML = strats[getRandomInt(4)];
+
 }
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
+}
+
+function pickRandStrat() {
+  document.getElementById("test").innerHTML = strats[getRandomInt(4)];
 }

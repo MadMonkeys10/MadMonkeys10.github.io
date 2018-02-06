@@ -3,8 +3,10 @@ $.ajax({
     url:     "strats.txt",
     success: function(text) {
         alert("Sucess");
-        var strats = text;
-
+        var strats = text.split("\n");
+        strats.forEach(function(element) {
+          document.getElementById("testArea").innerHTML = document.getElementById("testArea").innerHTML + "<p>" + element + "</p>"
+        });
         document.getElementById("testArea").innerHTML = strats;
 
     },

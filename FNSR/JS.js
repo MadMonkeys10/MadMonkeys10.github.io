@@ -9,7 +9,6 @@ function getData() {
           strats.forEach(function(element) {
             console.log(element);
           });
-          pickRandStrat();
 
       },
       error:   function() {
@@ -18,9 +17,23 @@ function getData() {
   });
 }
 
+$(document).ajaxComplete(function() {
+  $(".log").text("Ajax complete");
+  pickRandStrat();
+})
+
+
+
+
+
+
+
+
+
+
 function start() {
-  alert("start();")
-  getData();
+  //alert("start();")
+  //getData();
 
 }
 

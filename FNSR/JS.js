@@ -1,20 +1,5 @@
 var strats = "null";
 
-// $.ajax({
-//     type:    "GET",
-//     url:     "strats.txt",
-//     success: function(text) {
-//       alert("Sucess");
-//       strats = text.split("\n");
-//       strats.forEach(function(element) {
-//         console.log(element);
-//       });
-//     },
-//     error: function() {
-//       alert("Error");
-//     }
-//   });
-
 $.get("strats.txt").done(function(text) {
   console.log("Sucess");
   strats = text.split("\n");
@@ -49,6 +34,6 @@ function getRandomInt(max) {
 }
 
 function pickRandStrat() {
-  console.log(strats[getRandomInt(4)]);
+  console.log(strats[getRandomInt(strats.length-2)]);
   document.getElementById("strat").innerHTML = strats[getRandomInt(4)];
 }

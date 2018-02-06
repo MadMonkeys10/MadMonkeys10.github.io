@@ -16,6 +16,7 @@ $.ajax({
 });
 
 function start() {
+  alert("TEST");
   document.getElementById("test").innerHTML = strats[getRandomInt(4)];
 }
 

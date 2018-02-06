@@ -2,16 +2,16 @@ $.ajax({
     type:    "GET",
     url:     "strats.txt",
     success: function(text) {
-        alert("Sucess");
-        var strats = text.split("\n");
-        strats.forEach(function(element) {
-          console.log(element);
-        });
-      }
-    error:   function() {
-        alert("Error");
+      alert("Sucess");
+      var strats = text.split("\n");
+      strats.forEach(function(element) {
+        console.log(element);
+      });
     }
-});
+    error: function() {
+      alert("Error");
+    }
+  });
 
 $(document).ajaxComplete(function() {
   $(".log").text("Ajax complete");

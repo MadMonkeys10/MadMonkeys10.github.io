@@ -12,7 +12,3 @@ function loadFile(filePath) {
   }
   return result;
 }
-
-function yes() {
-  return "Hello";
-}

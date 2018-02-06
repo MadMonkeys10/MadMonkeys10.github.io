@@ -5,7 +5,7 @@ $.ajax({
         alert("Sucess");
         var strats = text;
 
-        document.getElementById("testArea").innerHtml = strats;
+        document.getElementById("testArea").innerHTML = strats;
 
     },
     error:   function() {

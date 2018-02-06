@@ -1,10 +1,30 @@
+/*
+  Id's to use
+  strats
+  wepSt
+  LP
+
+*/
+
+
+
 var strats = "null";
 
 $.get("strats.txt").done(function(text) {
   console.log("Sucess");
   strats = text.split("\n");
+
   strats.forEach(function(element) {
     console.log(element);
+  });
+
+}).fail (function() {
+  console.log("Error");
+
+  strats = ["A","B", ""];
+
+  $(function() {
+    pickRandStrat();
   });
 
 });
@@ -14,19 +34,10 @@ $(document).ajaxComplete(function() {
   pickRandStrat();
 });
 
-
-
-
-
-
-
-
-
-
 function start() {
-  //alert("start();");
-  //getData();
 
+  console.log("Created by George Masters and William Masters");
+  //pickRandStrat();
 }
 
 function getRandomInt(max) {
@@ -34,6 +45,7 @@ function getRandomInt(max) {
 }
 
 function pickRandStrat() {
-  console.log(strats[getRandomInt(strats.length-1)]);
-  document.getElementById("strat").innerHTML = strats[getRandomInt(strats.length-1)];
+  let randStrat = strats[getRandomInt(strats.length-1)];
+  console.log("console.log(): " + randStrat);
+  document.getElementById("strat").innerHTML = randStrat;
 }

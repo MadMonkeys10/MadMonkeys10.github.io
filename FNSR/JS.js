@@ -9,6 +9,7 @@
 
 
 var strats = "null";
+var weapons = "null";
 
 $.get("strats.txt").done(function(text) {
   console.log("Sucess");
@@ -21,7 +22,7 @@ $.get("strats.txt").done(function(text) {
 }).fail (function() {
   console.log("Error");
 
-  strats = ["A","B", ""];
+  strats = ["A", "B", "C", "D", ""];
 
   $(function() {
     pickRandStrat();
@@ -29,9 +30,29 @@ $.get("strats.txt").done(function(text) {
 
 });
 
+$.get("weapons.txt").done(function(text) {
+  console.log("Sucess");
+  weapons = text.split("\n");
+
+  strats.forEach(function(element) {
+    console.log(element);
+  });
+
+}).fail (function() {
+  console.log("Error");
+
+  weapons = ["A", "B", "C", "D", ""];
+
+  $(function() {
+    pickRandWep();
+  });
+
+});
+
 $(document).ajaxComplete(function() {
   console.log("ajax Complete");
   pickRandStrat();
+  pickRandWep();
 });
 
 function start() {
@@ -45,7 +66,11 @@ function getRandomInt(max) {
 }
 
 function pickRandStrat() {
-  let randStrat = strats[getRandomInt(strats.length-1)];
-  console.log("console.log(): " + randStrat);
-  document.getElementById("strat").innerHTML = randStrat;
+  //console.log("console.log(): " + strats[getRandomInt(strats.length-1)]);
+  document.getElementById("strat").innerHTML = strats[getRandomInt(strats.length-1)];
+}
+
+function pickRandWep() {
+  //console.log("console.log(): " + strats[getRandomInt(strats.length-1)]);
+  document.getElementById("wepSt").innerHTML = weapons[getRandomInt(strats.length-1)];
 }

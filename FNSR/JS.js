@@ -49,5 +49,5 @@ function getRandomInt(max) {
 }
 
 function pickRandStrat() {
-  document.getElementById("test").innerHTML = strats[getRandomInt(4)];
+  document.getElementById("test").innerHTML = "test" + strats[getRandomInt(4)];
 }

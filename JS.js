@@ -3,7 +3,7 @@ function test() {
 }
 
 function attack() {
-  var n = rand(18);  // returns a number between 1 and 18;
+  var n = rand(20);  // returns a number between 1 and 20;
   //alert(n);
   var op;
   var gn;
@@ -15,7 +15,7 @@ function attack() {
       op = "Sledge";
       gn = pikr(["M590A1","L85A2"]);
       sg = pikr(["P226 MK 25", "SMG-11"]);
-      Gadget = pikr(["Frag grenade", "Stun granade"]);
+      Gadget = pikr(["Frag grenade", "Stun grenade"]);
       loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-sledge_229923.png";
       break;}
     case 2:{
@@ -29,7 +29,7 @@ function attack() {
       op = "Ash";
       gn = pikr(["G36C","R4-C"]);
       sg = pikr(["M45 Meusoc","5.7 USG"]);
-      Gadget = pikr(["Breach charge", "Stun granade"]);
+      Gadget = pikr(["Breach charge", "Stun grenade"]);
       loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-ash_229909.png";
       break;}
     case 4:{ op = "Thermite";
@@ -47,25 +47,25 @@ function attack() {
     case 6:{ op = "Montagne";
       gn = pikr(["Extended shield"]);
       sg = pikr(["P9","LFP586"]);
-      Gadget = pikr(["Smoke granade", "Stun granade"]);
+      Gadget = pikr(["Smoke grenade", "Stun grenade"]);
       loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-montagne_229919.png";
       break;}
     case 7:{ op = "Glaz";
       gn = pikr(["OTs-03"]);
       sg = pikr(["PMM","GSH-18"]);
-      Gadget = pikr(["Claymore", "Smoke granade"]);
+      Gadget = pikr(["Claymore", "Smoke grenade"]);
       loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-glaz_229915.png";
       break;}
     case 8:{ op = "Fuze";
     gn = pikr(["AK-12","Ballistic Sheild","6P41"]);
     sg = pikr(["PMM","GSH-18"]);
-    Gadget = pikr(["Breach charge", "Smoke granade"]);
-    loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-fuze_229914.png";
+    Gadget = pikr(["Breach charge", "Smoke grenade"]);
+    loc = "Images/fuze.png";
      break;}
     case 9:{ op = "Blitz";
     gn = pikr(["Flash Shield"]);
     sg = pikr(["P12"]);
-    Gadget = pikr(["Breach charge", "Smoke granade"]);
+    Gadget = pikr(["Breach charge", "Smoke grenade"]);
     loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-blitz_229911.png";
      break;}
     case 10:{ op = "IQ";
@@ -77,42 +77,42 @@ function attack() {
     case 11:{ op = "Buck";
     gn = pikr(["C8-SFW","CAMRS"]);
     sg = pikr(["MK1 9mm"]);
-    Gadget = pikr(["Frag grenade", "Stun granade"]);
+    Gadget = pikr(["Frag grenade", "Stun grenade"]);
     loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-buck_237599.png";
      break;}
     case 12:{ op = "Black beard";
     gn = pikr(["MK17 CQB","SR-25",]);
     sg = pikr(["D-50"]);
-    Gadget = pikr(["Breach charge", "Stun granade"]);
+    Gadget = pikr(["Breach charge", "Stun grenade"]);
     loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-blackbeard_250317.png";
      break;}
     case 13:{ op = "Capitao";
     gn = pikr(["PARA-308","M249",]);
     sg = pikr(["PRB92"]);
-    Gadget = pikr(["Claymore", "Stun granade"]);
+    Gadget = pikr(["Claymore", "Stun grenade"]);
     loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-capitao_263117.png";
      break;}
     case 14:{ op = "Hibana";
     gn = pikr(["TYPE-89","Supernova"]);
     sg = pikr(["P229","Bearing 9"]);
-    Gadget = pikr(["Claymore", "Stun granade"]);
-    loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-hibana_275645.png";
+    Gadget = pikr(["Claymore", "Stun grenade"]);
+    loc = "Images/hibana.png";
      break;}
     case 15:{ op = "Jackel";
     gn = pikr(["C7E","PDW9","ITA12L"]);
     sg = pikr(["USP40","ITA12s"]);
-    Gadget = pikr(["Breach charge", "Smoke granade"]);
-    loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-jackal_286946.png";
+    Gadget = pikr(["Breach charge", "Smoke grenade"]);
+    loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-jackal_286946.png"; // Doesent work
      break;}
     case 16:{
       op = "Ying";
       gn = pikr(["T-95 LSW","SIX12"]);
       sg = pikr(["Q-929"]);
-      Gadget = pikr(["Breach charge", "Smoke granade"]);
-      loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-ying_302078.png";
+      Gadget = pikr(["Breach charge", "Smoke grenade"]);
+      loc = "Images/ying.png";
       break;}
     case 17:{ op = "Zofia";
-      gn = pikr(["LMGE","C762"]);
+      gn = pikr(["LMGE","M762"]);
       sg = pikr(["RG15"]);
       Gadget = pikr(["Breach charge", "Claymore"]);
       loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operator-zofia_operatorlist_307019.png";
@@ -120,9 +120,25 @@ function attack() {
     case 18:{ op = "Dokkoabi";
       gn = pikr(["MK 14 ","BOSG.12.2"]);
       sg = pikr(["SMG-12","C75 auto"]);
-      Gadget = pikr(["Smoke granade", "Claymore"]);
+      Gadget = pikr(["Smoke grenade", "Claymore"]);
       loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operator-dokkaebi-list_307129.png";
+      break;
+    }
+    case 19: {
+      op = "Lion";
+      gn = pikr(["V308","417","SG-CQB"]);
+      sg = pikr(["P9", "LFP586"]);
+      Gadget = pikr(["claymore", "Stun grenade"]);
+      loc = "";
       break;}
+    case 20: {
+      op = "Finka";
+      gn = pikr(["SPEAR .308","6P41","SASG-12"]);
+      sg = pikr(["PMM", "GSH-18"]);
+      Gadget = pikr(["Breach charge", "Stun grenade"]);
+      loc = "";
+      break;}
+
 
 
   }
@@ -147,7 +163,7 @@ function defend() {
     case 1:{ op = "Smoke";
     gn = pikr(["FMG-9","M590A1"]);
     sg = pikr(["P226 MK 25","SMG-11"]);
-    Gadget = pikr(["Barbed wire", "Impact granade"]);
+    Gadget = pikr(["Barbed wire", "Impact grenade"]);
     loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-smoke_229924.png";
      break;}
     case 2:{ op = "Mute";
@@ -159,7 +175,7 @@ function defend() {
     case 3:{ op = "Castle";
     gn = pikr(["UMP45","M1014"]);
     sg = pikr(["5.7 USG","M45 Meusoc"]);
-    Gadget = pikr(["Deployable shield", "impact granade"]);
+    Gadget = pikr(["Deployable shield", "impact grenade"]);
     loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-castle_229912.png";
      break;}
     case 4:{ op = "Pulse";
@@ -177,7 +193,7 @@ function defend() {
     case 6:{ op = "Rook";
     gn = pikr(["SG-CQB","MP5","P90"]);
     sg = pikr(["P9","LFP586"]);
-    Gadget = pikr(["Deployable shield", "Impact granade"]);
+    Gadget = pikr(["Deployable shield", "Impact grenade"]);
     loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-rook_229922.png";
      break;}
     case 7:{ op = "Kapkan";
@@ -219,7 +235,7 @@ function defend() {
     case 13:{ op = "Caveira";
     gn = pikr(["M12","SPAS-15"]);
     sg = pikr(["Lusion"]);
-    Gadget = pikr(["Impact granade", "Barbed wire"]);
+    Gadget = pikr(["Impact grenade", "Barbed wire"]);
     loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-caveira_263109.png";
      break;}
     case 14:{ op = "Echo";
@@ -237,19 +253,19 @@ function defend() {
     case 16:{ op = "Lesion";
     gn = pikr(["T-5","SIX12 SD"]);
     sg = pikr(["Q-929"]);
-    Gadget = pikr(["Impact granade", "Deployable shield"]);
+    Gadget = pikr(["Impact grenade", "Deployable shield"]);
     loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-lesion_286947.png";
      break;}
     case 17:{ op = "Ela";
     gn = pikr(["FO-12","Scorpion EVO 3 A1"]);
     sg = pikr(["RG15"]);
-    Gadget = pikr(["Impact granade", "Barbed wire"]);
+    Gadget = pikr(["Deployable shield", "Barbed wire"]);
     loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operators-list-ela_302099.png";
      break;}
      case 18:{ op = "Vigil";
      gn = pikr(["K1A","BOSG.12.2"]);
      sg = pikr(["C75 auto","SMG-12"]);
-     Gadget = pikr(["Impact granade", "Barbed wire"]);
+     Gadget = pikr(["Impact grenade", "Barbed wire"]);
      loc = "https://ubistatic19-a.akamaihd.net/resource/en-gb/game/rainbow6/siege/r6-operator-vigil-list_307138.png";
       break;}
   }
